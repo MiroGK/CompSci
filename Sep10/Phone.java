@@ -18,7 +18,7 @@ public class Phone {
 
     // read the variable
     // getter READS back the value (gets it)
-    public String setBrand() {
+    public String getBrand() {
         return brand;
     }
 
