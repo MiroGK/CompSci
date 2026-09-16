@@ -1,3 +1,5 @@
+package Sep10;
+
 public class Rectangle {
     private int length;
     private int width;
