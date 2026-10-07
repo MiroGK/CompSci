@@ -1,3 +1,5 @@
+package Oct5;
+
 public class SequencesTester {
 
     public static void main(String[] args) {

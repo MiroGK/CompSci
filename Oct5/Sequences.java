@@ -1,3 +1,5 @@
+package Oct5;
+
 public class Sequences {
     
     // Read REQ 02
