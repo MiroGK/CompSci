@@ -1,3 +1,5 @@
+package Oct7;
+
 public class LoopPuzzlesTester {
 
     public static void main(String[] args) {

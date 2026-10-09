@@ -1,3 +1,5 @@
+package Oct7;
+
 public class LoopPuzzles {
 
     // Read REQ 02
