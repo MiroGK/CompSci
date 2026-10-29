@@ -1,5 +1,3 @@
-package Oct9;
-
 public class PhraseTester {
 
     public static void main(String[] args) {
@@ -41,9 +39,11 @@ public class PhraseTester {
         // Phrase runs = new Phrase("aabbbc");
         // Phrase bookeeper = new Phrase("bookkeeper");
         // System.out.println("countAdjacentPairs() on \"aabbbc\" -> " + runs.countAdjacentPairs());
-        // System.out.println("countAdjacentPairs() on \"bookkeeper\" -> " + bookeeper.countAdjacentPairs());
+        // System.out.println("countAdjacentPairs() on \"bookkeeper\" -> 
+        // " + bookeeper.countAdjacentPairs());
         // System.out.println("countAdjacentPairs() on \"\" -> " + empty.countAdjacentPairs());
-        // System.out.println("countAdjacentPairs() on \"a\" -> " + single.countAdjacentPairs());
+        // System.out.println("countAdjacentPairs() on \"a\" -> 
+        // " + single.countAdjacentPairs());
 
 
         // System.out.println();

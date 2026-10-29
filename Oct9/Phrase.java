@@ -1,5 +1,3 @@
-package Oct9;
-
 public class Phrase {
 
     private String text;
@@ -97,7 +95,7 @@ public class Phrase {
         for (int i = text.length() - 1; i >= 0; i--) {
             output += text.charAt(i);
         }
-        if (output.equals(text)) {
+        if (output.toLowerCase().equals(text.toLowerCase())) {
             return true;
         } else {
             return false;
