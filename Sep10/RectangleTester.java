@@ -2,8 +2,8 @@ package Sep10;
 
 public class RectangleTester {
     public static void main(String[] args) {
-        Rectangle rect = new Rectangle(5,10);
-        Rectangle choppedRect = new Rectangle(3,7);
+        Rectangle_old rect = new Rectangle_old(5,10);
+        Rectangle_old choppedRect = new Rectangle_old(3,7);
 
         rect.getLength();
         rect.getWidth();

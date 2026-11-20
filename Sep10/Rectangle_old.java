@@ -1,15 +1,15 @@
 package Sep10;
 
-public class Rectangle {
+public class Rectangle_old {
     private int length;
     private int width;
 
-    public Rectangle() {
+    public Rectangle_old() {
         length = 1;
         width = 1;
     }
 
-    public Rectangle(int newLength, int newWidth) {
+    public Rectangle_old(int newLength, int newWidth) {
         length = newLength;
         width = newWidth;
     }
@@ -47,7 +47,7 @@ public class Rectangle {
         return "This rectangle has a length " + length + " and width " + width + ". ";
     }
     
-    public boolean equals(Rectangle other) {
+    public boolean equals(Rectangle_old other) {
         if (length == other.length && width == other.width) {
             return true;
         } else {
