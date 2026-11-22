@@ -13,4 +13,13 @@ public class Square extends Rectangle {
         super.setLength(length);
         super.setWidth(length);
     }
+
+    public void setWidth(int width) {
+        super.setLength(width);
+        super.setWidth(width);
+    }
+
+    public String toString() {
+        return super.toString() + " This rectangle is also a square.";
+    }
 }

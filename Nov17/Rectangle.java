@@ -48,4 +48,12 @@ public class Rectangle extends Polygon {
         ", width " + width + ", and area " + getArea() + ".";
         return output;
     }
+
+    public boolean isSquare() {
+        if (length == width) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
