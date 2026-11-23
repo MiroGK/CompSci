@@ -1,3 +1,5 @@
+package U2_PracticeTest;
+
 public class Fish {
     private String name;
     private String species;

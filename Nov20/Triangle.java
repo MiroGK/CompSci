@@ -1,6 +1,6 @@
-package Nov17;
+package Nov20;
 
-public class Triangle extends Polygon {
+public class Triangle extends Polygon implements Scalable {
     private double base;
     private double height;
 
@@ -20,6 +20,11 @@ public class Triangle extends Polygon {
         super(3);
         this.base = 3;
         this.height = 4;
+    }
+
+    public void scale(double factor) {
+        base *= factor;
+        height *= factor;
     }
 
     public void setBase(int base) {

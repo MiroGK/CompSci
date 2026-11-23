@@ -1,5 +1,7 @@
 package Nov17;
 
+import Nov20.Polygon;
+
 public class RegularHexagon extends Polygon {
     private double sideLength;
 

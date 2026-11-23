@@ -1,6 +1,6 @@
-package Nov17;
+package Nov20;
 
-public class Rectangle extends Polygon {
+public class Rectangle extends Polygon implements Scalable, HasPerimeter {
     private double length;
     private double width;
 
@@ -55,5 +55,14 @@ public class Rectangle extends Polygon {
         } else {
             return false;
         }
+    }
+
+    public void scale(double factor) {
+        length *= factor;
+        width *= factor;
+    }
+
+    public double getPerimeter() {
+        return (2 * length) + (2 * width);
     }
 }
